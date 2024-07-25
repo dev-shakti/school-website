@@ -1,0 +1,95 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+}
+
+/* Customize navbar background and text color */
+.navbar-custom {
+  background-color: #0d6efd;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #e0e0e0 !important; 
+}
+
+/* Footer styling */
+.footer {
+  background-color: #0d6efd; 
+  color: #ffffff; 
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer span {
+  color: #f8f9fa;
+}
+
+/* Other styles */
+.container {
+  max-width: 900px;
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.card-title {
+  color: #6c757d;
+}
+
+.card-body p, .card-body ul {
+  color: #343a40;
+}
+
+.contact-info {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border-radius: 8px;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.embed-responsive {
+  margin-top: 20px;
+}
